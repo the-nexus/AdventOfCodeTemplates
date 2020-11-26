@@ -5,8 +5,6 @@
     <Filter Include="Source\Challenges"/>
     <Filter Include="Source\Challenges\Common"/>
     <Filter Include="Source\Generated"/>
-    <Filter Include="Source\Helpers"/>
-    <Filter Include="Source\Utilities"/>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\AdventOfCode.cpp">
