@@ -5,6 +5,7 @@
     <Filter Include="Source\Challenges"/>
     <Filter Include="Source\Challenges\Common"/>
     <Filter Include="Source\Generated"/>
+    <Filter Include="Source\Helpers"/>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\AdventOfCode.cpp">
@@ -15,6 +16,9 @@
     </ClCompile>
     <ClCompile Include="Source\Challenges\Common\Challenge.cpp">
       <Filter>Source\Challenges\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Helpers\FileHelpers.cpp">
+      <Filter>Source\Helpers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,6 +33,9 @@
     </ClInclude>
     <ClInclude Include="Source\Generated\GeneratedDefinitions.h">
       <Filter>Source\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Helpers\FileHelpers.h">
+      <Filter>Source\Helpers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
